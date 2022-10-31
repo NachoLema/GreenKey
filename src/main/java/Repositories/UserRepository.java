@@ -15,7 +15,10 @@ public class UserRepository implements IUserRepository {
 
     @Override
     public User getUser(String id) {
-        return null;
+        User u = new User();
+        u.setName("Nacho");
+        u.setLastName("Lema");
+        return  u;
     }
 
 
